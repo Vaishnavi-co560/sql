@@ -12,6 +12,7 @@ insert into Academics values(4218,'swathi','cpt',20);
 insert into Academics values(4254,'sadiya','nrt',20);
 insert into Academics values(4261,'aasritha','nrt',21);
 select *from Academics;
+select student_id from academics;
 create table Accountss(id int,total_fees int,payment int,exam_fee int,balance int);
 insert into Accountss values(4207,50000,20000,800,30000);
 insert into Accountss values(4356,50000,5500,800,4400);
